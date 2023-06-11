@@ -21,6 +21,6 @@ services:
       MYSQL_USER: crud
       MYSQL_PASSWORD: root
     volumes:
-      - ./db.sql:/docker-entrypoint-initdb.d/db.sql
+      - ./database/db.sql:/docker-entrypoint-initdb.d/db.sql
     ports:
       - 3306:3306
