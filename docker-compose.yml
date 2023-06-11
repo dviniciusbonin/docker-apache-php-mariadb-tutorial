@@ -1,0 +1,14 @@
+version: '3'
+services:
+  database:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: crud
+      MYSQL_USER: crud
+      MYSQL_PASSWORD: root
+    volumes:
+      - ./db.sql:/docker-entrypoint-initdb.d/db.sql
+    ports:
+      - 3306:3306
