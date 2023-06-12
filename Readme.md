@@ -116,5 +116,15 @@ Em volumes mapeamos a nossa aplicação da pasta app para o diretorio do apache 
 
 Ao final definimos um depends_on, para espeficiar para a nossa aplicação que ela depende do nosso database, sendo asssim ela nossa será incializada assim que o service database estiver sido contruido e inicializado.
 
+Agora basta apenas executar um 
+
+```docker-compose up -d```
+
+E acessar localhost
+
+Você verá uma tela parecida com:
+
+![localhost](docs/screenshot.png)
+
 E nesse tutorial aprendemos como executar uma aplicação php com apache e mariadb utilizando docker e docker-compose.
 
