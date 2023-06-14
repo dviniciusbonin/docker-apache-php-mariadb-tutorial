@@ -1,5 +1,7 @@
 # Rodando aplicação PHP + Apache + Mariadb com Docker e Docker-compose
 
+A aplicação utilizada como exemplo foi retirada de [Crud com php + mysql](https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php)
+
 1 - Primeiro de tudo vamos criar um arquivo docker-compose.yml na raiz do nosso diretorio.
 
 Primeiramente adiconaremos a configuração para executar um container com o mariadb
